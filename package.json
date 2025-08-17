@@ -1,0 +1,30 @@
+{
+  "name": "chemstruck",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "pnpm -C apps/web dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier . --write",
+    "e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "electron": "^25.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^9.0.0",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.2.0",
+    "vite": "^4.4.0",
+    "vite-plugin-electron": "^0.11.1",
+    "vitest": "^0.34.0"
+  }
+}
