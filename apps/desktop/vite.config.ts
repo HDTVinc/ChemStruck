@@ -4,7 +4,7 @@ import electron from 'vite-plugin-electron';
 
 export default defineConfig({
   plugins: [
-    react(),
+    react({ jsxRuntime: 'classic' }),
     electron({
       main: {
         entry: 'src/main.ts',
