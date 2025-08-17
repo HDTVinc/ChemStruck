@@ -1,0 +1,21 @@
+{
+  "name": "desktop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest --passWithNoTests"
+  },
+  "dependencies": {
+    "electron": "^25.0.0",
+    "@chem/editor": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0",
+    "vite-plugin-electron": "^0.11.1"
+  }
+}

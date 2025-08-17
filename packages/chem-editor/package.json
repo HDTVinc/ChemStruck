@@ -1,0 +1,15 @@
+{
+  "name": "@chem/editor",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest --passWithNoTests"
+  },
+  "dependencies": {
+    "@chem/render": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
